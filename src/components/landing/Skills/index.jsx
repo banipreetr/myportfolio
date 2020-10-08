@@ -4,6 +4,7 @@ import { ThemeContext } from 'providers/ThemeProvider';
 import { Container, Button } from 'components/common';
 import dev from 'assets/illustrations/skills.svg';
 import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles';
+import { Link } from 'gatsby';
 
 export const Skills = () => {
   const { theme } = useContext(ThemeContext);
@@ -12,16 +13,25 @@ export const Skills = () => {
     <Wrapper id="about">
       <SkillsWrapper as={Container}>
         <Thumbnail>
-          <img src={dev} alt="I’m John and I’m a Backend & Devops engineer!" />
+          <img src={dev} alt="I’m Banipreet and I’m a final year student at IIT (ISM) Dhanbad!" />
         </Thumbnail>
         <Details theme={theme}>
           <h1>More about me</h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry’s standard dummy.
+            <small>
+              I am a student of the final year in Dual Degree (B.Tech + M. Tech) in Computer Science and Engineering at the <a href='https://www.iitism.ac.in/'>Indian Institute of Technology (Indian School of Mines) Dhanbad</a>.
+              I am largely self-taught and have focused heavily on online resources as well as hands-on implementation to pursue my dream of becoming a successful Software Engineer. 
+              I have recently completed my summer internship as a Software Engineer Intern at <a href="https://www.techatbloomberg.com/" target="_blank">Bloomberg</a>.
+            </small>
+          </p>
+          <p>
+            <small>
+            My domain of interests includes Competitive Programming, Object-Oriented Designing, Deep Learning, Computer Vision, Machine Learning, and Data Analytics. 
+            Apart from this, I like to spend my free time in participating in Competitive Programming contests at <a href="https://codeforces.com/">Codeforces</a>, solving problems on <a href="https://leetcode.com/">Leetcode</a>, watch movies & TV-Series and play online games.
+            </small>
           </p>
           <Button as={AnchorLink} href="#contact">
-            Hire me
+            Get in Touch
           </Button>
         </Details>
       </SkillsWrapper>

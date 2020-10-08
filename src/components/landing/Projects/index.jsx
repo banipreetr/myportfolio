@@ -38,9 +38,12 @@ export const Projects = () => {
       }
     `
   );
+  
   return (
     <Wrapper as={Container} id="projects">
-      <h2>Projects</h2>
+      <h2>Work</h2>
+     
+      <h3>Projects</h3>
       <Grid>
         {edges.map(({ node }) => (
           <Item key={node.id} as="a" href={node.url} target="_blank" rel="noopener noreferrer" theme={theme}>

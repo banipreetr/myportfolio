@@ -71,3 +71,9 @@ yarn-error.log
 .yarn-integrity
 
 .now
+
+#node modules
+node_modules
+
+#vscode
+.vscode

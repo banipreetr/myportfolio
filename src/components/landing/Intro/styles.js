@@ -19,6 +19,30 @@ export const IntroWrapper = styled.div`
     flex-direction: column;
   }
 `;
+export const ButtonGroup = styled.div `
+	display: flex;
+	flex-wrap: wrap;
+
+	& > a {
+		margin: 5px 10px;
+	}
+
+	& > a:first-child {
+		margin-left: 0;
+	}
+
+	& > a:last-child {
+		margin-right: 0;
+	}
+
+	@media (max-width: 450px) {
+		flex-direction: column;
+
+		& > a {
+			margin: 5px 0;
+		}
+	}
+`;
 
 export const Details = styled.div`
   flex: 1;
