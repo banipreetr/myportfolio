@@ -12,9 +12,6 @@ export const Projects = () => {
       <h2>Work</h2>
      
       <h3>Projects</h3>
-      <p>{WorkData.projects.map((data) => (
-          data.title
-      ))}</p>
 
       <Grid>
         {WorkData.projects.map((node) => (

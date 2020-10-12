@@ -1,11 +1,39 @@
 {
     "projects": [
       {
+        "title": "Image Captioning Using Attention Model",
+        "subtitle": "Deep Learning / Computer Vision",
+        "time": "November 2019",
+        "description": "Implemented an Image Captioning Model using Attention Model, using two CNN architectures to achieve encoding of the image (ResNet50 and ResNext101) and finally ensembling the attention weights of the pixels to generate captions. A BLEU Score of 0.301 was achieved. Training was done on MSCOCO '14 Dataset."
+      },
+      {
         "title": "Brain Segmentation",
-        "subtitle": "Full-Stack",
+        "subtitle": "Full-Stack Machine Learning",
         "time": "March 2019",
         
         "description": "Worked on segmentation of regions of brain on MRBrains18 dataset which contains 8 label classes, in Smart India Hackathon 2019. Achieved an average dice score of 0.79 on validation set."
+      },
+      {
+        "title": "Wheel Chair for Paralyzed",
+        "subtitle": "Deep Learning / Computer Vision",
+        "time": "October 2018",
+        
+        "description": "Implemented this project using dlib, opencv, CNNs and arduino. Main idea lies in controlling a wheel chair based on lip movement to overcome the costly wheel-chairs in market. Project was made in 8 hours in a minihackathon and the dataset was generated and labeled manually."
+      },
+      {
+        "title": "Facial Emotion Detection Using Autoencoder",
+        "subtitle": "Deep Learning / Computer Vision",
+        "time": "April 2018",
+        
+        "description": "Implemented the classifier by training 7 different shallow auto-encoders for each emotion of human face using JAFFE dataset. Classification was made on the basis of least cosine distance of the output of different encoders with the flattened vector of the original image. Mentor: Dr. Chiranjeev Kumar"
+      },
+      {
+        "title": "Snake Game",
+        "subtitle": "Game",
+        "time": "August 2017",
+        
+        "description": "Implemented a basic snake game using pygame library of python. Using pre-defined data structures of python, developed an algorithm to track the pixels of the snake's body which moves in the 4 direction based on the player's interaction."
       }
+      
     ]
   }
