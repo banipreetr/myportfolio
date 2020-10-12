@@ -10,9 +10,24 @@ export const Projects = () => {
   return (
     <Wrapper as={Container} id="projects">
       <h2>Work</h2>
-     
-      <h3>Projects</h3>
+      <h3>Experience</h3>
 
+      <Grid>
+        {WorkData.experience.map((node) => (
+          <Item as="div" key={node.title} target="_blank" rel="noopener noreferrer" theme={theme}>
+            <Card theme={theme}>
+              <Content>
+                <h4>{node.title}</h4>
+                <Subtitle>{node.location}</Subtitle>
+                <p>{node.description}</p>
+              </Content>
+              
+            </Card>
+          </Item>
+        ))}
+      </Grid>
+      <h3></h3>
+      <h3>Projects</h3>
       <Grid>
         {WorkData.projects.map((node) => (
           <Item as="div" key={node.title} target="_blank" rel="noopener noreferrer" theme={theme}>

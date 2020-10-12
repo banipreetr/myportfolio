@@ -1,4 +1,13 @@
 {
+    "experience": [
+      {
+        "title": "Software Engineer Intern",
+        "location": "Remote",
+        "time": "June 2020 - September 2020",
+        "description": "Worked as part of the Asset and Investment Management (AIM) team which focuses on building buy-side solutions. Developed a Full-Stack Project using C++, Python, Typescript, Redis, Kafka, and Bloomberg Proprietary UI & MVC framework, that provides information on available room/limit in a particular portfolio for particular security before a Compliance rule is violated."
+      }
+
+    ],
     "projects": [
       {
         "title": "Image Captioning Using Attention Model",
