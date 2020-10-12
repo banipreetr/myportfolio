@@ -69,3 +69,39 @@ export const Subtitle = styled.h4`
 	font-weight: lighter;
 	margin-bottom: 10px !important;
 `
+export const InfoList = styled.div`
+	margin-bottom: 10px;
+	& > div {
+		display: flex;
+		align-items: center;
+		margin-bottom: 5px;
+	}
+	& > div > img {
+		height: 15px;
+		width: 15px;
+		margin: 0 5px 0 0;
+		padding: 0;
+	}
+	& > div > span {
+		font-size: 13px;
+		line-height: 15px;
+	}
+	& > div > a {
+		color: #0074d9;
+		text-decoration: none;
+		font-size: 13px;
+		line-height: 15px;
+	}
+	& > div > a:active {
+		color: #0074d9;
+	}
+	& > div > a:focus {
+		color: #0074d9;
+	}
+	& > div > a:visited {
+		color: #0074d9;
+	}
+	& > div:last-child {
+		margin-bottom: 0;
+	}
+`

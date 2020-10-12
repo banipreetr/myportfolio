@@ -3,7 +3,7 @@
     "id": 0,
     "name": "LinkedIn",
     "link": "https://www.linkedin.com/in/banipreet-raheja/",
-    "icon": "https://www.flaticon.com/svg/static/icons/svg/174/174857.svg"
+    "icon": "/icons/linkedin.svg"
   },
   {
     "id": 1,
@@ -22,5 +22,5 @@
     "name": "Twitter",
     "link": "https://twitter.com/bani_raheja",
     "icon": "/icons/twitter.svg"
-  }
+  } 
 ]

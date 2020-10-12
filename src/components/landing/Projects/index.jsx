@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from 'providers/ThemeProvider';
 import { Container, Card } from 'components/common';
-import { Wrapper, Grid, Item, Content, Subtitle } from './styles';
+import { Wrapper, Grid, Item, Content, Subtitle, InfoList } from './styles';
 import WorkData from './work.json';
 
 export const Projects = () => {
@@ -15,10 +15,22 @@ export const Projects = () => {
       <Grid>
         {WorkData.experience.map((node) => (
           <Item as="div" key={node.title} target="_blank" rel="noopener noreferrer" theme={theme}>
+            
             <Card theme={theme}>
               <Content>
                 <h4>{node.title}</h4>
-                <Subtitle>{node.location}</Subtitle>
+                <InfoList>
+                  <div>
+    
+                    <img src="/icons/location.svg" alt="location"/>
+                    <span>{node.location}</span>
+                  </div>
+                  
+                  <div>
+                    <img src="/icons/calendar.svg" alt="calendar"/>
+                    <span>{node.time}</span>
+                  </div>
+                </InfoList>
                 <p>{node.description}</p>
               </Content>
               
@@ -31,10 +43,17 @@ export const Projects = () => {
       <Grid>
         {WorkData.projects.map((node) => (
           <Item as="div" key={node.title} target="_blank" rel="noopener noreferrer" theme={theme}>
+            
             <Card theme={theme}>
               <Content>
                 <h4>{node.title}</h4>
                 <Subtitle>{node.subtitle}</Subtitle>
+                <InfoList>
+                  <div>
+                    <img src="/icons/calendar.svg" alt="calendar"/>
+                    <span>{node.time}</span>
+                  </div>
+                </InfoList>
                 <p>{node.description}</p>
               </Content>
               
