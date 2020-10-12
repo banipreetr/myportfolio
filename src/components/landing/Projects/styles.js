@@ -63,3 +63,9 @@ export const Stats = styled.div`
     }
   }
 `;
+
+export const Subtitle = styled.h4`
+	color: #212121;
+	font-weight: lighter;
+	margin-bottom: 10px !important;
+`
