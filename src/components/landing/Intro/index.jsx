@@ -23,7 +23,7 @@ export const Intro = () => {
           </ButtonGroup>
         </Details>
         <Thumbnail>
-          <img src={dev} alt="I’m Banipreet and I’m a JAMStack engineer!" />
+          <img src={dev} alt="I’m Banipreet and I’m a backend engineer!" />
         </Thumbnail>
       </IntroWrapper>
     </Wrapper>

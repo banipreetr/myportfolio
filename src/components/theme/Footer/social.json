@@ -22,5 +22,11 @@
     "name": "Twitter",
     "link": "https://twitter.com/bani_raheja",
     "icon": "/icons/twitter.svg"
-  } 
+  },
+  {
+    "id": 4,
+    "name": "Medium",
+    "link": "https://medium.com/@banipreetsinghraheja",
+    "icon": "/icons/medium.svg"
+  }
 ]

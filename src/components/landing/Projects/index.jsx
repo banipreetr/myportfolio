@@ -18,7 +18,8 @@ export const Projects = () => {
             
             <Card theme={theme}>
               <Content>
-                <h4>{node.title}</h4>
+                <h4>{node.organization}</h4>
+                <Subtitle>{node.title}</Subtitle>
                 <InfoList>
                   <div>
     
@@ -53,6 +54,8 @@ export const Projects = () => {
                     <img src="/icons/calendar.svg" alt="calendar"/>
                     <span>{node.time}</span>
                   </div>
+                  
+                  
                 </InfoList>
                 <p>{node.description}</p>
               </Content>
