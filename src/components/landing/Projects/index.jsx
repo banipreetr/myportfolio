@@ -47,7 +47,8 @@ export const Projects = () => {
             
             <Card theme={theme}>
               <Content>
-                <h4>{node.title}</h4>
+              {(node.link != "_blank" ? <a href={node.link}><h4>{node.title}</h4></a>: <h4>{node.title}</h4>)}
+                
                 <Subtitle>{node.subtitle}</Subtitle>
                 <InfoList>
                   <div>
