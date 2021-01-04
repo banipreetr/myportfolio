@@ -1,6 +1,13 @@
 {
     "experience": [
       {
+        "organization": "Nutanix",
+        "title": "Intern, Member of Technical Staff",
+        "location": "Remote",
+        "time": "January 2021 - Present",
+        "description": "Working as a part of Cloud Infrastructure team."
+      },
+      {
         "organization": "Bloomberg LP",
         "title": "Software Engineer Intern",
         "location": "Remote",
