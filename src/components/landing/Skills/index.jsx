@@ -21,7 +21,7 @@ export const Skills = () => {
             <small>
               I am a student of the final year in Dual Degree (B.Tech + M. Tech) in Computer Science and Engineering at the <a href='https://www.iitism.ac.in/' target="_blank">Indian Institute of Technology (Indian School of Mines) Dhanbad</a>.
               I am largely self-taught and have focused heavily on online resources as well as hands-on implementation to pursue my dream of becoming a successful Software Engineer. 
-              I have recently completed my summer internship as a Software Engineer Intern at <a href="https://www.techatbloomberg.com/" target="_blank">Bloomberg</a>, , and currently I am interning as a Member of Technical Staff at  <a href="https://www.nutanix.com/theforecastbynutanix/technology" target="_blank">Nutanix</a>.
+              I have recently completed my summer internship as a Software Engineer Intern at <a href="https://www.techatbloomberg.com/" target="_blank">Bloomberg</a>, and currently I am interning as a Member of Technical Staff at  <a href="https://www.nutanix.com/theforecastbynutanix/technology" target="_blank">Nutanix</a>.
             </small>
           </p>
           <p>
