@@ -33,13 +33,6 @@
         "link": "_blank"
       },
       {
-        "title": "Brain Segmentation",
-        "subtitle": "Full-Stack Machine Learning",
-        "time": "March 2019",  
-        "description": "Worked on segmentation of regions of brain on MRBrains18 dataset which contains 8 label classes, in Smart India Hackathon 2019. Achieved an average dice score of 0.79 on validation set.",
-        "link": "https://github.com/banipreetr/Brain-Segmentation"
-      },
-      {
         "title": "Wheel Chair for Paralyzed",
         "subtitle": "Deep Learning / Computer Vision",
         "time": "October 2018",
