@@ -13,7 +13,7 @@ export const Skills = () => {
     <Wrapper id="about">
       <SkillsWrapper as={Container}>
         <Thumbnail>
-          <img src={dev} alt="I’m Banipreet and I’m a final year student at IIT (ISM) Dhanbad!" />
+          <img src={dev} alt="I’m Banipreet and I’m a Software Engineer in London!" />
         </Thumbnail>
         <Details theme={theme}>
           <h1>More about me</h1>
@@ -21,7 +21,8 @@ export const Skills = () => {
             <small>
               I am a student of the final year in Dual Degree (B.Tech + M. Tech) in Computer Science and Engineering at the <a href='https://www.iitism.ac.in/' target="_blank">Indian Institute of Technology (Indian School of Mines) Dhanbad</a>.
               I am largely self-taught and have focused heavily on online resources as well as hands-on implementation to pursue my dream of becoming a successful Software Engineer. 
-              I have recently completed my summer internship as a Software Engineer Intern at <a href="https://www.techatbloomberg.com/" target="_blank">Bloomberg</a>, and currently I am interning as a Member of Technical Staff at  <a href="https://www.nutanix.com/theforecastbynutanix/technology" target="_blank">Nutanix</a>.
+              I have completed my summer internship as a Software Engineer Intern at <a href="https://www.techatbloomberg.com/" target="_blank">Bloomberg</a>, and as a Member of Technical Staff at  <a href="https://www.nutanix.com/theforecastbynutanix/technology" target="_blank">Nutanix</a>.
+              Currenlty I am working as a Software Engineer at <a href="https://www.techatbloomberg.com/" target="_blank">Bloomberg</a>.
             </small>
           </p>
           <p>
