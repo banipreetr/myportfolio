@@ -1,11 +1,18 @@
 {
     "experience": [
       {
+        "organization": "Bloomberg LP",
+        "title": "Software Engineer",
+        "location": "London, England",
+        "time": "August 2021 - Present",
+        "description": "Working as a part of Asset and Investment Management (AIM) team which focuses on building buy-side solutions."
+      },
+      {
         "organization": "Nutanix",
         "title": "Intern, Member of Technical Staff",
         "location": "Remote",
-        "time": "January 2021 - Present",
-        "description": "Working as a part of Xi Cloud Infrastructure team."
+        "time": "January 2021 - July 2021",
+        "description": "Worked as a part of Xi Cloud Infrastructure team."
       },
       {
         "organization": "Bloomberg LP",
